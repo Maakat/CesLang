@@ -1,0 +1,5 @@
+target/
+*.ceb
+.settings/
+.classpath
+.project
