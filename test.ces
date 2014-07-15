@@ -1,4 +1,4 @@
 put Test: \n
 get
 
-exit
+exit 0

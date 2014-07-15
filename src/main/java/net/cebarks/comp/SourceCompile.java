@@ -45,6 +45,7 @@ public class SourceCompile {
 			if (line.startsWith("exit")) {
 				System.out.println("exit");
 				baos.write(EXIT_BYTE);
+				baos.write(Byte.parseByte(line.split(" ")[1]));
 			}
 
 			if (line.startsWith("put")) {
